@@ -1,5 +1,5 @@
 
-Scenario 1
+Scenario 1 // block the execution of RCLone by calling the config
 ----------
 Rule {
     Target {
@@ -10,7 +10,7 @@ Rule {
     }
 }
 
-Scenario 2
+Scenario 2 // block the usage of RClone and used commandline options
 ----------
 Rule {
     Process {
