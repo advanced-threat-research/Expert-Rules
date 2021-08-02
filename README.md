@@ -2,7 +2,7 @@
 
 This repository contains the set of rules that can be used with McAfee Endpoint Security in the Exploit Prevention policy. 
 
-Contributing
+## Contributing
 The repository license is Apache 2.0. Making a contribution to this repository means you are licensing the contribution under the repository license.
 
 Pull requests are accepted and encouraged so users can share their approaches for detecting different events. For the benefit of the community, authors are required to document the rules with the fields described below and place them in the COMMUNITY folder. Pull requests have to contain a markdown file for each rule in the pull request with the following fields. Any pull requests not conforming to the below best practices will be rejected.
@@ -15,6 +15,7 @@ Description: A deep description of the purpose of the rule, techniques covered, 
 
 Rule TCL: The rule TCL code that can be directly used in the ENS Exploit Prevention policy. Something like:
 
+```json
 Rule {
     Process {
         Include Match_Type { -v ... }
@@ -28,6 +29,7 @@ Rule {
         }
     }
 }
+```
 Trigger: Some steps to trigger the rule and verify that it actually works. You can put a reference here to any public and safe tool.
 
 Tested Platforms: Provide the tested platform information like the OS version, OS architecture, Application name, Application version, Endpoint Security Product version, etc. For Example: OS: Windows 10 build 19041, Architecture: 64 bit, Application Name: Microsoft Edge, Application Version: 1.1.1.1, Endpoint Security version 10.7.0.1234
