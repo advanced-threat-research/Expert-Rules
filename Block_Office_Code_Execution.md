@@ -36,7 +36,7 @@ NA
 
 ## Tested Platforms
 OS: Windows 10 1909 x64
-ENS: 10.7.0 November'20 update
+ENS: 10.7.0
 
 ## Notes
 Customers are advised to fine-tune the rule in their environment or disable the signature if there are false positives.
