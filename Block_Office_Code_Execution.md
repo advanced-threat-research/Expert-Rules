@@ -20,11 +20,7 @@ Rule {
     Target {
         Match PROCESS {
             Include OBJECT_NAME { -v "msdt.exe" }
-            Include PROCESS_CMD_LINE {
-                -v "** pass **"
-                -v "** user **"
             
-            }
             Include -access "CREATE"
         }
     }
