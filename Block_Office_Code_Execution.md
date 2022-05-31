@@ -1,10 +1,10 @@
-# Detect new code injection method in Microsoft Office
+# Detect new code injection method in Microsoft Office CVE-2022-30190
 
 ## Author
 Trellix Threat Labs - CB
 
 ## Description
-A recent maldoc contained a novel way of downloading and injecting code using the msdt.exe tool to execute PowerShell and download malicious code
+A recent maldoc contained a novel way of downloading and injecting code using the msdt.exe tool to execute PowerShell and download malicious code #CVE-2022-30190
 ## Rule Class 
 Processes
 
